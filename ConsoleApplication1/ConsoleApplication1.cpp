@@ -32,7 +32,7 @@ int main()
         fstp output1;
     }
 
-    std::wcout << L"After, load " << input1 << " store : " << output1 << L"\r\n\r\n";
+    std::wcout << L"Before, load " << input1 << " store : " << output1 << L"\r\n\r\n";
     
     HMODULE module = LoadLibraryW(L"avcodec-59.dll");
 
